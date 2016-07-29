@@ -1,6 +1,6 @@
 # Android Studio Live Templates
 
-*Abbreviation* : **retrofit
+*Abbreviation* : **retrofit**
 
 *Template Text* :
 ```
@@ -10,7 +10,7 @@ private Retrofit $name$ = new Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .build();
 ```
-*Abbreviation* : **cfrag
+*Abbreviation* : **cfrag**
 
 *Template Text* :
 ```
@@ -21,7 +21,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
 }
 ```
 
-*Abbreviation* : **fj
+*Abbreviation* : **fj**
 
 *Template Text* :
 ```
@@ -29,7 +29,7 @@ public static $className$ fromJson(String jsonString) {
        return new Gson().fromJson(jsonString, $className$.class);
 }
 ```
-*Abbreviation* : **tj
+*Abbreviation* : **tj**
 
 *Template Text* :
 ```
@@ -44,7 +44,7 @@ public JSONObject toJson() {
     return jsonObject;
 }
 ```
-*Abbreviation* : **scf
+*Abbreviation* : **scf**
 
 *Template Text* :
 ```
@@ -82,13 +82,13 @@ public class StringConverterFactory extends Converter.Factory {
     }
 }
 ```
-Abbreviation : **rvin
+Abbreviation : **rvin**
 
 Template Text :
 ```
 View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$, parent, false);
 ```
-*Abbreviation* : **optmenu
+*Abbreviation* : **optmenu**
 
 *Template Text* :
 ```
