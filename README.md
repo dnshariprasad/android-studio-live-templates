@@ -10,40 +10,6 @@ private Retrofit $name$ = new Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .build();
 ```
-*Abbreviation* : **cfrag**
-
-*Template Text* :
-```
-@Override
-public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-    view = inflater.inflate(R.layout.$resId$, container, false);
-    return view;
-}
-```
-
-*Abbreviation* : **fj**
-
-*Template Text* :
-```
-public static $className$ fromJson(String jsonString) {
-       return new Gson().fromJson(jsonString, $className$.class);
-}
-```
-*Abbreviation* : **tj**
-
-*Template Text* :
-```
-public JSONObject toJson() {
-    String jsonRepresentation = new Gson().toJson(this, $className$.class);
-    JSONObject jsonObject = null;
-    try {
-        jsonObject = new JSONObject(jsonRepresentation);
-        } catch (JSONException e) {
-            Log.e(TAG, "Error converting to JSON: " + e.getMessage());
-        }
-    return jsonObject;
-}
-```
 *Abbreviation* : **scf**
 
 *Template Text* :
@@ -80,6 +46,39 @@ public class StringConverterFactory extends Converter.Factory {
         }
         return null;
     }
+}
+```
+*Abbreviation* : **fj**
+
+*Template Text* :
+```
+public static $className$ fromJson(String jsonString) {
+       return new Gson().fromJson(jsonString, $className$.class);
+}
+```
+*Abbreviation* : **tj**
+
+*Template Text* :
+```
+public JSONObject toJson() {
+    String jsonRepresentation = new Gson().toJson(this, $className$.class);
+    JSONObject jsonObject = null;
+    try {
+        jsonObject = new JSONObject(jsonRepresentation);
+        } catch (JSONException e) {
+            Log.e(TAG, "Error converting to JSON: " + e.getMessage());
+        }
+    return jsonObject;
+}
+```
+*Abbreviation* : **cfrag**
+
+*Template Text* :
+```
+@Override
+public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    view = inflater.inflate(R.layout.$resId$, container, false);
+    return view;
 }
 ```
 Abbreviation : **rvin**
