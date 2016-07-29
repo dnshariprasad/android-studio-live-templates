@@ -115,6 +115,8 @@ View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$,
         }
     }
 ```
+[Live Templates - Handy Reference](https://cdn-images-1.medium.com/max/2000/1*4Y_TdIYJonsLtoPgtp8-jg.png)
+
 ###Refer : 
 [Android Studio Live Templates - Medium] (https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7#.ikhy6j88b)
 
