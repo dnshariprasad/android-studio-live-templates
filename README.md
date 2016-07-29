@@ -1,4 +1,4 @@
-# Android Studio Live Templates
+# Android Studio - Live Templates
 
 *Abbreviation* : **retrofit**
 
