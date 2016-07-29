@@ -1,8 +1,8 @@
 # Android Studio Live Templates
 
-Abbreviation : retrofit
+*Abbreviation* : retrofit
 
-Template Text :
+*Template Text* :
 ```
 private Retrofit $name$ = new Retrofit.Builder()
         .baseUrl($url$)
@@ -11,9 +11,9 @@ private Retrofit $name$ = new Retrofit.Builder()
         .build();
 ```
 ---
-Abbreviation : cfrag
+*Abbreviation* : cfrag
 
-Template Text :
+*Template Text* :
 ```
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -22,18 +22,18 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
 }
 ```
 =============================================================================================
-Abbreviation : fj
+*Abbreviation* : fj
 
-Template Text :
+*Template Text* :
 ```
 public static $className$ fromJson(String jsonString) {
        return new Gson().fromJson(jsonString, $className$.class);
 }
 ```
 ---
-Abbreviation : tj
+*Abbreviation* : tj
 
-Template Text :
+*Template Text* :
 ```
 public JSONObject toJson() {
     String jsonRepresentation = new Gson().toJson(this, $className$.class);
@@ -47,9 +47,9 @@ public JSONObject toJson() {
 }
 ```
 ---
-Abbreviation : scf
+*Abbreviation* : scf
 
-Template Text :
+*Template Text* :
 ```
 public class StringConverterFactory extends Converter.Factory {
     private static final MediaType MEDIA_TYPE = MediaType.parse("text/plain");
@@ -93,9 +93,9 @@ Template Text :
 View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$, parent, false);
 ```
 ---
-Abbreviation : optmenu
+*Abbreviation* : optmenu
 
-Template Text :
+*Template Text* :
 ```
 @Override
     public boolean onCreateOptionsMenu(Menu menu) {
