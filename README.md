@@ -1,6 +1,6 @@
 # Android Studio - Live Templates
 
-#####>Retrofit
+####Retrofit
 
 *Abbreviation* : **retrofit**
 
