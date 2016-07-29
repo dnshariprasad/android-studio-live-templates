@@ -1,10 +1,5 @@
 # Android Studio Live Templates
 
-
-Ref : 
-https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7#.ikhy6j88b
-
----
 Abbreviation : retrofit
 
 Template Text :
@@ -15,8 +10,6 @@ private Retrofit $name$ = new Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .build();
 ```
-
-        
 ---
 Abbreviation : cfrag
 
@@ -120,3 +113,7 @@ Template Text :
         }
     }
 ```
+---
+###Refer : 
+[Android Studio Live Templates - Medium] (https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7#.ikhy6j88b)
+
