@@ -115,6 +115,7 @@ View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$,
         }
     }
 ```
+
 ![Live Templates - Handy Reference](https://cdn-images-1.medium.com/max/2000/1*4Y_TdIYJonsLtoPgtp8-jg.png)
 
 ###Refer : 
