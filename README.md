@@ -50,7 +50,7 @@ public class StringConverterFactory extends Converter.Factory {
     }
 }
 ```
-> GSON
+####GSON
 
 *Abbreviation* : **fj**
 
@@ -75,7 +75,7 @@ public JSONObject toJson() {
     return jsonObject;
 }
 ```
->FRAGMENT
+####FRAGMENT
 
 *Abbreviation* : **cfrag**
 
@@ -87,7 +87,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
     return view;
 }
 ```
-> Recyclerview Inflator
+####Recyclerview Inflator
 
 Abbreviation : **rvin**
 
