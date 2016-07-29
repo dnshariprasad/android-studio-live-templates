@@ -10,7 +10,6 @@ private Retrofit $name$ = new Retrofit.Builder()
         .addConverterFactory(GsonConverterFactory.create())
         .build();
 ```
----
 *Abbreviation* : cfrag
 
 *Template Text* :
@@ -21,7 +20,7 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
     return view;
 }
 ```
-=============================================================================================
+
 *Abbreviation* : fj
 
 *Template Text* :
@@ -30,7 +29,6 @@ public static $className$ fromJson(String jsonString) {
        return new Gson().fromJson(jsonString, $className$.class);
 }
 ```
----
 *Abbreviation* : tj
 
 *Template Text* :
@@ -46,7 +44,6 @@ public JSONObject toJson() {
     return jsonObject;
 }
 ```
----
 *Abbreviation* : scf
 
 *Template Text* :
@@ -85,14 +82,12 @@ public class StringConverterFactory extends Converter.Factory {
     }
 }
 ```
----
 Abbreviation : rvin
 
 Template Text :
 ```
 View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$, parent, false);
 ```
----
 *Abbreviation* : optmenu
 
 *Template Text* :
@@ -113,7 +108,6 @@ View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$,
         }
     }
 ```
----
 ###Refer : 
 [Android Studio Live Templates - Medium] (https://medium.com/google-developers/writing-more-code-by-writing-less-code-with-android-studio-live-templates-244f648d17c7#.ikhy6j88b)
 
