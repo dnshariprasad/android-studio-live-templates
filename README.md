@@ -8,34 +8,40 @@ https://medium.com/google-developers/writing-more-code-by-writing-less-code-with
 Abbreviation : retrofit
 
 Template Text :
+```
 private Retrofit $name$ = new Retrofit.Builder()
         .baseUrl($url$)
         .addConverterFactory(StringConverterFactory.create())
         .addConverterFactory(GsonConverterFactory.create())
         .build();
+```
+
         
 ---
 Abbreviation : cfrag
 
 Template Text :
+```
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
     view = inflater.inflate(R.layout.$resId$, container, false);
     return view;
 }
-
+```
 =============================================================================================
 Abbreviation : fj
 
 Template Text :
+```
 public static $className$ fromJson(String jsonString) {
        return new Gson().fromJson(jsonString, $className$.class);
 }
-
+```
 ---
 Abbreviation : tj
 
 Template Text :
+```
 public JSONObject toJson() {
     String jsonRepresentation = new Gson().toJson(this, $className$.class);
     JSONObject jsonObject = null;
@@ -46,10 +52,12 @@ public JSONObject toJson() {
         }
     return jsonObject;
 }
+```
 ---
 Abbreviation : scf
 
 Template Text :
+```
 public class StringConverterFactory extends Converter.Factory {
     private static final MediaType MEDIA_TYPE = MediaType.parse("text/plain");
 
@@ -83,17 +91,19 @@ public class StringConverterFactory extends Converter.Factory {
         return null;
     }
 }
-
+```
 ---
 Abbreviation : rvin
 
 Template Text :
+```
 View view = (LayoutInflater.from(parent.getContext())).inflate(R.layout.$resId$, parent, false);
-
+```
 ---
 Abbreviation : optmenu
 
 Template Text :
+```
 @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.$resId$, menu);
@@ -109,3 +119,4 @@ Template Text :
                 return super.onOptionsItemSelected(item);
         }
     }
+```
