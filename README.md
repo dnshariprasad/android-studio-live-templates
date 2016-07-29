@@ -1,6 +1,7 @@
 # Android Studio - Live Templates
 
 >Retrofit
+
 *Abbreviation* : **retrofit**
 
 *Template Text* :
@@ -50,6 +51,7 @@ public class StringConverterFactory extends Converter.Factory {
 }
 ```
 > GSON
+
 *Abbreviation* : **fj**
 
 *Template Text* :
@@ -73,6 +75,8 @@ public JSONObject toJson() {
     return jsonObject;
 }
 ```
+>FRAGMENT
+
 *Abbreviation* : **cfrag**
 
 *Template Text* :
@@ -83,6 +87,8 @@ public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle sa
     return view;
 }
 ```
+> Recyclerview Inflator
+
 Abbreviation : **rvin**
 
 Template Text :
